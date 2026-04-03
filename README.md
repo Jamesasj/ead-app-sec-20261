@@ -17,6 +17,12 @@ Este projeto segui principios do mvc a fim de organizar o codigo e facilitar a m
 │   └── Application.java
 ```
 
+### Resposabilidades
+- Model: classe de modelo para o dominio, onde serao definidos os atributos e metodos do dominio
+- Controller: classe de controle para o dominio, onde serao definidos os endpoints para acessar as funcionalidades do dominio. tambem valida as requisicoes, tipos, parametros, e retorna as respostas adequadas para cada requisicao.
+- Repository: classe de repositorio para o dominio, onde serao definidos os metodos para acessar o banco de dados
+- Service: classe de servico para o dominio, onde serao definidos os metodos para processar as regras de negocio do dominio e chamar os metodos do repositorio para acessar o banco de dados, bem como assegurar a seguranca do sistema, validando as permissoes dos usuarios para acessar as funcionalidades do dominio
+
 ## Dominios
 Sistema de cadastro de usuarios e produtos, onde o usuario pode cadastrar, editar e excluir produtos, e o administrador pode gerenciar os usuarios e os produtos cadastrados
 
