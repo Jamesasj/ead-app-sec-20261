@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+data/ead-db.mv.db
