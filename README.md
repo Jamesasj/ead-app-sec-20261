@@ -47,3 +47,7 @@ Sistema de cadastro de usuarios e produtos, onde o usuario pode cadastrar, edita
 ## Comandos para rodar o projeto
 - `./mvnw spring-boot:run ` para rodar o projeto
 - `./mvnw clean install` para limpar e construir o projeto
+
+
+## Swagger
+- `http://localhost:8080/swagger-ui/index.html` para acessar a documentacao da API e testar os endpoints
